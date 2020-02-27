@@ -4,7 +4,6 @@ dodger.style.backgroundColor = '#FF69B4'
 document.addEventListener('keydown', function(e) {
   if (e.which === 37) {
     moveDodgerLeft()
-    console.log(dodger.style.left)
 
   }
   if (e.which === 39) {
