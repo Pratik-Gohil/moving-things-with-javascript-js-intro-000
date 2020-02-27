@@ -22,6 +22,7 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
   var rightNumbers = -(dodger.style.left.replace('px', ''))
   var right = parseInt(rightNumbers, 10)
+  console.log(right)
 
   if(right < 0) {
     dodger.style.right = `${right + 10}px`
