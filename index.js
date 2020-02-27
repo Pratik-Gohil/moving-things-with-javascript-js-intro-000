@@ -7,7 +7,6 @@ document.addEventListener('keydown', function(e) {
   }
   if (e.which === 39) {
     moveDodgerRight()
-    console.log(dodger.style.right)
   }
 })
 
