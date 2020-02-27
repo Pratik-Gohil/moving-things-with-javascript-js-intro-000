@@ -26,6 +26,14 @@
           dodger.style.left = `${left - 10}px`
         }
       }
+      function moveDodgerLeft() {
+        var leftNumbers = dodger.style.left.replace('px', '')
+        var left = parseInt(leftNumbers, 10)
+
+        if (left > 0) {
+          dodger.style.left = `${left - 10}px`
+        }
+      }
     </script>
   </body>
 </html>
