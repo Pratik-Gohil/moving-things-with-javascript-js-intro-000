@@ -20,4 +20,6 @@ function moveDodgerLeft() {
   }
 }
 
-moveDodgerRight()
+moveDodgerRight() {
+
+}
